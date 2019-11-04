@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/work-furukawa/ruboty-healing_cat.git
+  revision: 7f0919cb549ee4d6459a3e5ca886d09481c1d284
+  specs:
+    ruboty-healing_cat (0.1.0)
+      ruboty
+
+GIT
   remote: git://github.com/work-furukawa/ruboty-indecisive.git
   revision: ba4d568d9f3810aed583cbc3a7eebf2a8ca39c8f
   specs:
@@ -74,6 +81,7 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
+  ruboty-healing_cat!
   ruboty-indecisive!
   ruboty-slack_rtm
   ruboty-whatday!
