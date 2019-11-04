@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/work-furukawa/ruboty-indecisive.git
+  revision: ba4d568d9f3810aed583cbc3a7eebf2a8ca39c8f
+  specs:
+    ruboty-indecisive (0.1.0)
+      ruboty
+
+GIT
   remote: git://github.com/work-furukawa/ruboty-whatday.git
   revision: b15f80fe6d1fee17dc4049c100c5f091bf6cb9fb
   specs:
@@ -67,6 +74,7 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
+  ruboty-indecisive!
   ruboty-slack_rtm
   ruboty-whatday!
 
